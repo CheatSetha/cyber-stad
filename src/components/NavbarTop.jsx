@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 export default function NavbarTop() {
   return (
@@ -8,7 +9,8 @@ export default function NavbarTop() {
           <a className="navbar-item font-semibold max-sm:hidden">CSTAD</a>
         </div>
         <div className="navbar-end">
-          <a className="navbar-item text-primary font-semibold max-sm:text-xl">Go to CSTAD <IoIosArrowForward className="inline"/> </a>
+          
+          <Link target="_blank" href={'https://istad.co/'} className="navbar-item text-primary font-semibold max-sm:text-xl">Go to CSTAD <IoIosArrowForward className="inline"/> </Link>
         </div>
       </div>
     </div>

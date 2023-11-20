@@ -5,9 +5,9 @@ export const BASE_TEAM_MEMBER = [
     position: "Team-Leader",
     profile: "/images/team/sokpheng.jpg",
     links: {
-      github: "https://github.com/CheatSetha",
-      facebook: "https://www.facebook.com/profile.php?id=100011596444565",
-      linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
+      github: "https://github.com/sokpheng001",
+      facebook: "https://twitter.com/SoPheng88402351",
+      linkin: "https://linkedin.com/in/kim-chansokpheng-6b6513267",
     },
   },
   {
@@ -27,7 +27,7 @@ export const BASE_TEAM_MEMBER = [
     position: "Team-Member",
     profile: "/images/team/nita.jpg",
     links: {
-      github: "https://github.com/CheatSetha",
+      github: "https://github.com/sonitayoeurn",
       facebook: "https://www.facebook.com/profile.php?id=100011596444565",
       linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
     },
@@ -38,7 +38,7 @@ export const BASE_TEAM_MEMBER = [
     position: "Team-Member",
     profile: "/images/team/vd.jpg",
     links: {
-      github: "https://github.com/CheatSetha",
+      github: "https://github.com/Vandy1100",
       facebook: "https://www.facebook.com/profile.php?id=100011596444565",
       linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
     },
@@ -49,7 +49,7 @@ export const BASE_TEAM_MEMBER = [
     position: "Team-Member",
     profile: "/images/team/reach.jpg",
     links: {
-      github: "https://github.com/CheatSetha",
+      github: "https://github.com/reachhwasup",
       facebook: "https://www.facebook.com/profile.php?id=100011596444565",
       linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
     },

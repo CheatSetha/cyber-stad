@@ -2,7 +2,7 @@ import { VscGithub } from "react-icons/vsc";
 import { CiLinkedin, CiTwitter } from "react-icons/ci";
 import Image from "next/image";
 import Link from "next/link";
-export default function MemberCard({ name, position, avatar, github, linkedin}) {
+export default function MemberCard({ name, position, avatar, github, linkedin, twitter}) {
 
   return (
     <div className="bg-third z-0 w-[250px] h-[300px]">
@@ -16,9 +16,11 @@ export default function MemberCard({ name, position, avatar, github, linkedin}) 
         <h1 className="font-semibold text-2xl">{name || "human"}</h1>
         <p className="font-light text-lg">{position || "ceo"}</p>
         <div className="flex gap-7 mt-3">
-          <Link className="cursor-pointer" href={github || "#" }><VscGithub className="text-lg" /></Link>
-          <CiLinkedin className="text-lg" />
-          <CiTwitter className="text-lg" />
+          <Link target="_blank" className="cursor-pointer" href={github || "#" }><VscGithub className="text-lg" /></Link>
+          <Link target="_blank" className="cursor-pointer" href={linkedin || "#" }><CiLinkedin className="text-lg" /></Link>
+          <Link target="_blank" className="cursor-pointer" href={twitter || "#" }><CiTwitter className="text-lg" /></Link>
+          
+          
         </div>
       </div>
       {/* <Image

@@ -5,7 +5,7 @@ export const MENTORS = [
     kh_name: "មុំ រស្មី",
     position: "Leader, Data Analysist",
     links: {
-      facebook: "https://www.facebook.com/mom.reaksmey.5",
+      github: "https://github.com/Reksmeys",
       linkedin: "https://www.linkedin.com/in/mom-reaksmey-0b6b6a1a4/",
       twitter: "https://twitter.com/MomReaksmey1",
     },
@@ -16,8 +16,8 @@ export const MENTORS = [
     kh_name: "ចាន់ ឆៃយ៉ា",
     position: " Back-End Developer",
     links: {
-      facebook: "https://www.facebook.com/chhaya.chan.9",
-      linkedin: "https://www.linkedin.com/in/chhaya-chan-3a4a1a1a4/",
+      github: "https://github.com/it-chhaya",
+      linkedin: "https://linkedin.com/in/chan-chhaya-222a69178",
       twitter: "https://twitter.com/ChhayaChan9",
     },
   },
@@ -27,7 +27,7 @@ export const MENTORS = [
     kh_name: "គិត ដារា",
     position: " Block Chain Developer",
     links: {
-      facebook: "https://www.facebook.com/tara.kit.7",
+      github: "https://github.com/tarakit",
       linkedin: "https://www.linkedin.com/in/tara-kit-7a4a1a1a4/",
       twitter: "https://twitter.com/TaraKit7",
     },
@@ -38,7 +38,7 @@ export const MENTORS = [
     kh_name: "កាយ កែវ",
     position: "DevOps Engineer",
     links: {
-      facebook: "https://www.facebook.com/kay.keo.1",
+      github: "https://github.com/keoKAY",
       linkedin: "https://www.linkedin.com/in/kay-keo-4a4a1a1a4/",
       twitter: "https://twitter.com/KayKeo1",
     },
@@ -49,7 +49,7 @@ export const MENTORS = [
     kh_name: "សាំង សុខគា",
     position: " Cybersecurity Expert",
     links: {
-      facebook: "https://www.facebook.com/sang.sokea.5",
+      github: "https://github.com/sangsokea",
       linkedin: "https://www.linkedin.com/in/sang-sokea-1a4a1a1a4/",
       twitter: "https://twitter.com/SangSokea5",
     },

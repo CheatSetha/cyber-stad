@@ -3,6 +3,7 @@ import { CiLinkedin, CiTwitter } from "react-icons/ci";
 import { Koh_Santepheap } from "next/font/google";
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FaSquareTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 const kohsantepheap = Koh_Santepheap({ subsets: ["latin"], weight: "400" });
 
@@ -26,7 +27,7 @@ export default function Card({
         <p className="text-xl">Instructor - {position}</p>
       </div>
       <div className="flex gap-5 max-sm:mt-3 ">
-        <VscGithub className="text-xl" />
+        <Link href={github} target="_blank" ><VscGithub className="text-xl" /></Link>
         <PiLinkedinLogoBold className="text-xl" />
         <FaSquareTwitter className="text-xl" />
       </div>

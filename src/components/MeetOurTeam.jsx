@@ -20,7 +20,9 @@ export default function MeetOurTeam() {
                 name={item.name}
                 position={item.position}
                 avatar={item.profile}
-                github={item.github}
+                github={item.links.github}
+                linkedin={item.links.linkin}
+                twitter={item.links.facebook}
                 
             />
           );
