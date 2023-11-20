@@ -10,7 +10,7 @@ const TypeAnimationText = () => {
         1000,
         "CYBER",
         1000,
-        "CYBERSecurity",
+        "CYBER-Security",
         1000,
         "CYBER-STAD",
         1000,

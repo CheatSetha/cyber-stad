@@ -17,10 +17,7 @@ body{
   background-size: 67%  ;
   background-position: center;
 } */
-.bg-mentor{
-  border:  3px 3px 3px 3px solid white;
 
-}
 #card-contact{
   /* border 3px only on right and bottom */
 border-left-width: 0;
