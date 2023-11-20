@@ -7,7 +7,7 @@ export default function MemberCard({ name, position, avatar, github, linkedin}) 
   return (
     <div className="bg-third z-0 w-[250px] h-[300px]">
       <div id="bg-img" className=" w-[250px] h-[300px]  z-30 relative -top-1 -left-1 bg-secondary flex flex-col justify-center items-center">
-        <div class="avatar w-[90px] mb-6 h-[90px] ">
+        <div class="avatar  border-white border-2 w-[90px] mb-6 h-[90px] ">
           <img
             src={avatar || "https://i.pravatar.cc/150?u=a042581f4e29026024d"}
             alt="avatar"
