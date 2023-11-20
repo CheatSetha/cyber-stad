@@ -2,26 +2,114 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.navbar-items {
+  color: #C3C3C3;
+}
+body{
+  background-color: #141d2b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* mentor section */
+/* .bg-mentor{
+
+  background-image: url('/images/mentorbg.svg');
+  background-repeat: no-repeat;
+  background-size: 67%  ;
+  background-position: center;
+} */
+.bg-mentor{
+  border:  3px 3px 3px 3px solid white;
+
+}
+#card-contact{
+  /* border 3px only on right and bottom */
+border-left-width: 0;
+border-top-width: 0;
+border-right-width: 4px;
+border-bottom-width: 4px;
+border-style: solid;
+border-color: #9FEF00;
+
+}
+.box-stand{
+  border-left-width: 0;
+border-top-width: 0;
+border-right-width: 4px;
+border-bottom-width: 4px;
+border-style: solid;
+border-color: #9FEF00;
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.landing-card{
+  border-left-width: 0;
+  border-top-width: 0;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-style: solid;
+  border-color: white;
 }
+
+#get-intouch{
+  background-image: url('https://4kwallpapers.com/images/wallpapers/new-york-city-cityscape-night-city-lights-half-moon-5k-1680x1050-437.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.tabs-underline .tab-toggle:checked+.tab:before {
+  --tw-bg-opacity: 1;
+  --tw-content: "";
+  /* background-color: rgb(var(--primary)/var(--tw-bg-opacity)); */
+  background-color: #9FEF00;
+  bottom: 0;
+  content: var(--tw-content);
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: transform .3s ease;
+  width: 100%;
+  z-index: 10;
+  
+}
+
+.tab-toggle:checked+.tab {
+  --tw-border-opacity: 1;
+  --tw-text-opacity: 1;
+  border-bottom-color: rgb(var(--primary)/var(--tw-border-opacity));
+  /* color: rgb(var(--primary)/var(--tw-text-opacity)); */
+  color: white;
+}
+
+.box-bg{
+  border-left-width: 0;
+  border-top-width: 0;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-style: solid;
+  border-color: #9FEF00;
+}
+
+.swiper {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/* hide content when mobile screen*/
+
