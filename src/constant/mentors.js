@@ -58,22 +58,22 @@ export const MENTORS = [
 export const MENTERS_IMAGES_AND_NAMES = [
   {
     name: "Mom Reaksmey",
-    image: "https://i.imgur.com/6v4hFzF.jpg",
+    image: "/images/mentor/mey.jpg",
   },
   {
     name: "Chan Chhaya",
-    image: "https://i.imgur.com/6v4hFzF.jpg",
+    image: "/images/mentor/ya.jpg",
   },
   {
     name: "Kit Tara",
-    image: "https://i.imgur.com/6v4hFzF.jpg",
+    image: "/images/mentor/tara.JPG",
   },
   {
     name: "Kay Keo",
-    image: "https://i.imgur.com/6v4hFzF.jpg",
+    image: "/images/mentor/keo.jpg",
   },
   {
     name: "Sang Sokea",
-    image: "https://i.imgur.com/6v4hFzF.jpg",
+    image: "/images/mentor/kea.jpg",
   },
 ];

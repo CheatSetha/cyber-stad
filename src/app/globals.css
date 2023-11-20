@@ -50,11 +50,41 @@ border-color: #9FEF00;
   border-color: white;
 }
 
-#get-intouch{
-  background-image: url('https://4kwallpapers.com/images/wallpapers/new-york-city-cityscape-night-city-lights-half-moon-5k-1680x1050-437.jpg');
+.bg-img-git{
+  background-image: url('/images/bg-git.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+/* small screen smaller than 420 */
+@media (max-width: 420px){
+  #mentor-page{
+      width: 250px;
+  }
+}
+
+@media(max-width: 768px){
+  #hide-content{
+    display: none;
+  }
+}
+
+#bg-team{
+  background-image: url('/images/team-bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+#bg-line-git{
+  background-image: url('/images/bg-git-line.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#bg-img{
+  background-image: url('/line.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
