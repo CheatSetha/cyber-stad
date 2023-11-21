@@ -13,7 +13,7 @@ export default function TapCustom() {
   };
 
   return (
-    <div>
+    <div data-aos="fade-up" data-aos-duration="2000">
       <div className="tabs tabs-underline flex justify-between md:w-[675px] border-b border-primary">
         <input
           type="radio"
@@ -24,7 +24,7 @@ export default function TapCustom() {
           onChange={handleTabChange}
         />
         <label htmlFor="tab-7" className="tab px-6 text-xl font-semibold">
-         All
+          All
         </label>
         <br />
 
@@ -62,15 +62,30 @@ export default function TapCustom() {
           checked={selectedTab === "tab-10"}
           onChange={handleTabChange}
         />
-        <label htmlFor="tab-10" className="tab max-sm:hidden px-6 text-xl font-semibold line-through">
+        <label
+          htmlFor="tab-10"
+          className="tab max-sm:hidden px-6 text-xl font-semibold line-through"
+        >
           Curriculum
         </label>
       </div>
 
       {/* Render content based on selected tab */}
-      {selectedTab === "tab-7" && <div><ContentOne /></div>}
-      {selectedTab === "tab-8" && <div><ContentTwo /></div>}
-      {selectedTab === "tab-9" && <div><ContentThree /></div>}
+      {selectedTab === "tab-7" && (
+        <div>
+          <ContentOne />
+        </div>
+      )}
+      {selectedTab === "tab-8" && (
+        <div>
+          <ContentTwo />
+        </div>
+      )}
+      {selectedTab === "tab-9" && (
+        <div>
+          <ContentThree />
+        </div>
+      )}
     </div>
   );
 }

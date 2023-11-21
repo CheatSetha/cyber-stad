@@ -1,3 +1,4 @@
+'use client'
 import EndIng from '@/components/Ending/EndIng'
 import Landing from '@/components/Landing'
 import MeetOurTeam from '@/components/MeetOurTeam'
@@ -8,7 +9,10 @@ import GenIntoch from '@/components/getintouch'
 import Mentor from '@/components/mentors'
 import Vision from '@/components/ourvision'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 export default function Home() {
   return (
    <main>

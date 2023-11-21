@@ -16,7 +16,7 @@ const TypeAnimationText = () => {
         1000,
         
       ]}
-      speed={50}
+      speed={40}
   
       repeat={Infinity}
     />

@@ -11,7 +11,7 @@ export default function Mentor() {
         Those who give us the clues and skills started in 2023
       </p>
       <section className="grid xl:grid-cols-2 grid-col-1">
-        <div>
+        <div data-aos="fade-up" data-aos-duration="2000">
           {MENTORS.map((item) => {
             return (
               <Card
@@ -26,7 +26,7 @@ export default function Mentor() {
             );
           })}
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-duration="2000">
           <RightPart />
         </div>
       </section>

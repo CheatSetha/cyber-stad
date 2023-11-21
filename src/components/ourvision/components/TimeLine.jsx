@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 export default function TimeLine() {
   return (
-    <Timeline>
+    <Timeline data-aos="fade-up" data-aos-duration="2000">
       <Timeline.Item>
         <Timeline.Point />
         <Timeline.Content>
