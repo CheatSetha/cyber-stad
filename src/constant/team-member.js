@@ -12,24 +12,24 @@ export const BASE_TEAM_MEMBER = [
   },
   {
     id: 2,
-    name: "Cheat Setha",
+    name: "Pao Ponareach",
     position: "Team-Member",
-    profile: "/images/team/setha.jpg",
+    profile: "/images/team/reach.jpg",
     links: {
-      github: "https://github.com/CheatSetha",
-      facebook: "https://www.facebook.com/profile.php?id=100011596444565",
-      linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
+      github: "https://github.com/reachhwasup",
+      facebook: "#",
+      linkin: "#",
     },
   },
   {
-    id: 2,
+    id: 3,
     name: "Yoeurn Sonita",
     position: "Team-Member",
     profile: "/images/team/nita.jpg",
     links: {
       github: "https://github.com/sonitayoeurn",
-      facebook: "https://www.facebook.com/profile.php?id=100011596444565",
-      linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
+      facebook: "#",
+      linkin: "#",
     },
   },
   {
@@ -39,19 +39,21 @@ export const BASE_TEAM_MEMBER = [
     profile: "/images/team/vd.jpg",
     links: {
       github: "https://github.com/Vandy1100",
-      facebook: "https://www.facebook.com/profile.php?id=100011596444565",
-      linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
+      facebook: "#",
+      linkin: "#",
     },
   },
   {
     id: 5,
-    name: "Pao Ponareach",
+    name: "Cheat Setha",
     position: "Team-Member",
-    profile: "/images/team/reach.jpg",
+    profile: "/images/team/setha.jpg",
     links: {
-      github: "https://github.com/reachhwasup",
-      facebook: "https://www.facebook.com/profile.php?id=100011596444565",
+      github: "https://github.com/CheatSetha",
+      facebook: "#",
       linkin: "https://www.linkedin.com/in/cheat-setha-276395263/",
     },
+    
   },
 ];
+

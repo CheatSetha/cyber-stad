@@ -1,6 +1,6 @@
 import { VscGithub } from "react-icons/vsc";
 import { CiLinkedin, CiTwitter } from "react-icons/ci";
-import Image from "next/image";
+
 import Link from "next/link";
 export default function MemberCard({
   name,
@@ -30,18 +30,18 @@ export default function MemberCard({
         <h1 className="font-semibold text-2xl">{name || "human"}</h1>
         <p className="font-light text-lg">{position || "ceo"}</p>
         <div className="flex gap-7 mt-3">
-          <Link target="_blank" className="cursor-pointer" href={github || "#"}>
+          <Link  className="cursor-pointer" href={github || "#"}>
             <VscGithub className="text-lg" />
           </Link>
           <Link
-            target="_blank"
+            
             className="cursor-pointer"
             href={linkedin || "#"}
           >
             <CiLinkedin className="text-lg" />
           </Link>
           <Link
-            target="_blank"
+           
             className="cursor-pointer"
             href={twitter || "#"}
           >
