@@ -13,7 +13,12 @@ export default function GenIntoch() {
           Contact us - question, partnership. We are all ears.
         </p>
 
-        <div className="flex z-30  justify-center md:gap-[80px] gap-5 ">
+        <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        data-aos-once="true"
+         
+         className="flex z-30  justify-center md:gap-[80px] gap-5 ">
           <CardContact title={'Github'} i={'2'}/>
           <CardContact title={"LinkedIn"} i={'1'}/>
         </div>

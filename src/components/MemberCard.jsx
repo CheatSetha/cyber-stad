@@ -14,6 +14,7 @@ export default function MemberCard({
     <div
       data-aos="fade-up"
       data-aos-duration="2000"
+      data-aos-once="true"
       className="bg-third z-0 w-[250px] h-[300px]"
     >
       <div
@@ -48,13 +49,6 @@ export default function MemberCard({
           </Link>
         </div>
       </div>
-      {/* <Image
-        className="absolute z-50 -mt-[304.5px] -ml-1"
-        src="/line.svg"
-        width={250}
-        height={10}
-        alt="line buttom"
-      /> */}
     </div>
   );
 }

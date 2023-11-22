@@ -2,13 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar-items {
-  color: #C3C3C3;
-}
+
 body{
   background-color: #141d2b;
+  color: white;
 }
 
+.navbar-item-custom {
+  --tw-text-opacity: 1;
+  border-radius: .5rem/* 8px */;
+  color: rgb(var(--content1)/var(--tw-text-opacity));
+  cursor: pointer;
+  padding: .5rem/* 8px */ .75rem/* 12px */;
+  transition-duration: .15s;
+  transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  color: white;
+}
+.navbar-item-custom:not(.navbar-active):hover {
+  --tw-text-opacity: 1;
+  color: white;
+  /* color: rgb(var(--content2)/var(--tw-text-opacity)); */
+}
+.navbar-item:not(.navbar-active):hover {
+  --tw-text-opacity: 1;
+  color: white;
+}
 /* mentor section */
 /* .bg-mentor{
 
@@ -32,7 +51,7 @@ border-color: #9FEF00;
   border-left-width: 0;
 border-top-width: 0;
 border-right-width: 4px;
-border-bottom-width: 4px;
+border-bottom-width: 0;
 border-style: solid;
 border-color: #9FEF00;
 
@@ -140,3 +159,7 @@ border-color: #9FEF00;
 
 /* hide content when mobile screen*/
 
+.tab:not(.tab-active):hover {
+  --tw-text-opacity: 1;
+  color: white
+}

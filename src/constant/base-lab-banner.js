@@ -6,7 +6,7 @@ export const BASE_LAB_BANNER = [
     },
     {
         id: 2,
-        name: "CTF Evnet Joined",
+        name: "CTF Event Joined",
         value: 60,
     },
     {

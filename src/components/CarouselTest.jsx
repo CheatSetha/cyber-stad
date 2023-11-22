@@ -14,7 +14,7 @@ export default function CarouselTest() {
               className="w-[200px] landing-card h-[200px] flex flex-col justify-center items-center shadow-2xl"
             >
               <h2 className="text-5xl font-bold text-center ">{item.value}+</h2>
-              <p className="text-xl">{item.name}</p>
+              <p className="text-xl ">{item.name}</p>
             </div>
           );
         })}

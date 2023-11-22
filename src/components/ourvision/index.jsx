@@ -24,12 +24,13 @@ export default function Vision() {
 
         {/* <CardVision /> */}
         <div className="flex max-sm:flex-col flex-wrap max-sm:mb-5 max-sm:justify-center md:gap-10 gap-20 xl:gap-20">
-          <span data-aos="fade-up" data-aos-duration="2000">
+          <span data-aos-once="true" data-aos="fade-up" data-aos-duration="2000">
             <CardVision img={"/images/vision/1.png"} title={"we start"} />{" "}
           </span>
           <span
             data-aos="fade-up"
             data-aos-duration="2000"
+            data-aos-once="true"
             className="md:mt-20"
           >
             <CardVision img={"/images/vision/2.png"} title={"We made"} />{" "}
@@ -37,6 +38,7 @@ export default function Vision() {
           <span
             data-aos="fade-up"
             data-aos-duration="2000"
+            data-aos-once="true"
             className="xl:mt-40 md:-mt-20"
           >
             <CardVision img={"/images/vision/3.png"} title={"We achieved"} />{" "}

@@ -8,6 +8,7 @@ export default function WhatWeDone() {
       <h1
         data-aos="fade-up"
         data-aos-duration="2000"
+        data-aos-once="true"
         className="md:text-7xl text-5xl font-bold text-center"
       >
         What we have learned
@@ -17,6 +18,7 @@ export default function WhatWeDone() {
         <p
           data-aos="fade-up"
           data-aos-duration="2000"
+          data-aos-once="true"
           className="text-xl font-medium mb-10 text-end mt-4"
         >
           <MdOutlineCheckBox className="inline text-primary" /> Making all

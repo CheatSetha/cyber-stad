@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const TypeAnimationText = () => {
   return (
     <TypeAnimation
+    className="text-primary"
       sequence={[
         // Same substring at the start will only be typed once, initially
         " ",

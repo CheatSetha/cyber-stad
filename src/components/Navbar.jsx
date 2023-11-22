@@ -1,12 +1,22 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { VscGithub } from "react-icons/vsc";
 import DrodDownNav from "./DrodDownNav";
+import { useEffect, useState } from "react";
+import Headroom from "react-headroom";
 
 export default function Navbar() {
+
+  
+
+
+
   return (
+    <Headroom>
     <div className="navbar   bg-primary p-0">
-      <div className="navbar w-10/12 mx-auto p-0 shadow-none text-2xl font-semibold bg-primary h-[80px]">
+
+      <div className={`navbar w-10/12 mx-auto p-0 shadow-none text-2xl font-semibold bg-primary h-[80px] `}>
         <div className="navbar-start">
           <Link href={"/"} className="navbar-item ">
             <Image
@@ -18,14 +28,14 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <div className="navbar-center max-sm:hidden">
-          <Link href="/" className="navbar-items navbar-item">
+        <div className="navbar-center lg:gap-10 md:gap-5  max-sm:hidden">
+          <Link href="/" className=" navbar-item-custom ">
             Home
           </Link>
-          <Link href="#aboutus" className="navbar-items navbar-item">
+          <Link href="#aboutus" className=" navbar-item-custom">
             About
           </Link>
-          <Link href="#contactus" className="navbar-items navbar-item">
+          <Link href="#contactus" className="navbar-item-custom">
             Contact
           </Link>
         </div>
@@ -43,5 +53,6 @@ export default function Navbar() {
         </div>
       </div>
     </div>
+    </Headroom>
   );
 }

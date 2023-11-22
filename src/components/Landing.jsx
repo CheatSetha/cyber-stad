@@ -7,7 +7,7 @@ export default function Landing() {
     <>
       <div className="md:h-screen flex flex-col justify-center py-10  items-center">
         <div className="mb-20">
-          <h1 className="md:text-8xl text-5xl text-center font-bold ">
+          <h1 className="md:text-8xl text-5xl text-center font-bold text-white">
             WE HAcking <br />{" "}
             <span className="text-primary">
               {" "}
@@ -22,20 +22,22 @@ export default function Landing() {
         {/* md:grid md:grid-cols-5 */}
         <div
           id="hide-content"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-once="true"
           className="w-10/12 mx-auto flex gap-8 md:gap-5 flex-shrink md:justify-center md:flex-wrap max-sm:hidden   "
         >
           {BASE_LAB_BANNER.map((item, index) => {
             return (
               <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
+              
                 key={item.id}
                 className="w-[200px] landing-card h-[200px] flex flex-col justify-center items-center shadow-2xl"
               >
-                <h2 className="text-5xl font-bold text-center ">
+                <h2 className="text-5xl text-white font-bold text-center ">
                   {item.value}+
                 </h2>
-                <p className="text-xl">{item.name}</p>
+                <p className="text-xl text-white">{item.name}</p>
               </div>
             );
           })}

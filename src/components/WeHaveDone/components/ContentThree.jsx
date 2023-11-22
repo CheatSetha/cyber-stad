@@ -6,10 +6,9 @@ export default function ContentThree() {
       {RESOURCES.map((item, index) => (
         <div
           key={index}
-          className="w-full box-bg h-12 mt-5 flex items-center justify-between px-5"
+          className="w-full box-bg min-h-[48px] mt-5 flex items-center justify-between px-5"
         >
           <li className="md:ms-10 text-xl text-white">{item.title} </li>{" "}
-          <p className="text-xl md:me-24">....</p>
         </div>
       ))}
     </div>

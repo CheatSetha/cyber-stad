@@ -8,12 +8,12 @@ export default function WhoWeAre() {
       {/* <div className="flex gap-6 justify-between"> */}
       <div className="who-we-are w-[400px]  max-sm:w-10/12 max-sm:mx-auto flex flex-col gap-5 justify-center items-center">
         <h3 className="text-3xl font-bold self-start">Who we are</h3>
-        <h1 className="md:text-7xl text-5xl max-sm:self-start font-bold">
+        <h1 className="md:text-7xl text-5xl self-start max-sm:self-start font-bold">
           We Hackers <br />
           At CSTAD{" "}
         </h1>
       </div>
-      <div className="desc md:py-10  max-sm:w-10/12 md:mx-auto max-sm:mx-auto xl:w-[510px] md:w-10/12 flex justify-center items-center">
+      <div className="desc max-sm:pt-5 md:py-10  max-sm:w-10/12 md:mx-auto max-sm:mx-auto xl:w-[510px] md:w-10/12 flex justify-center items-center">
         <p className="font-medium md:text-2xl text-xl text-secondary">
           Cyber-STAD is a group of cybersecurity researching student of CSTAD,
           CSTAD is a noteworthy science and technology center in Cambodia. We

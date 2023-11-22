@@ -4,7 +4,7 @@ export default function OurSponser() {
   return (
     <div className="bg-secondary mt-7 ">
       <Image
-        className="absolute"
+        className="absolute max-md:hidden"
         src={"/images/Vector 4.svg"}
         width={100}
         height={100}
@@ -15,25 +15,30 @@ export default function OurSponser() {
           <h1
             data-aos="fade-up"
             data-aos-duration="2000"
-            className="md:text-7xl text-5xl self-start font-bold"
+            data-aos-once="true"
+            className="lg:text-7xl text-5xl self-start font-bold"
           >
             Our Sponser
           </h1>
           <p
             data-aos="fade-up"
             data-aos-duration="2000"
+            data-aos-once="true"
             className="text-2xl self-start text-secondary"
           >
-            Thos who help us grow
+            Those who help us grow
           </p>
         </div>
-        <div className="flex flex-wrap justify-start items-center md:gap-10 gap-4 max-sm:my-3">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-once="true"
+          className="flex flex-wrap justify-start items-center md:gap-5 xl:gap-10 gap-4 max-sm:my-3"
+        >
           <div>
             {" "}
             <Image
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              className="w-[429px]"
+              className="xl:w-[429px] max-sm:w-[320px] md:w-[270px] "
               src="/images/mptc-logo-wide.png"
               width={500}
               height={300}
@@ -42,9 +47,7 @@ export default function OurSponser() {
           </div>
           <div>
             <Image
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              className="md:w-[179px] w-[150px]"
+              className="md:w-[110px] xl:w-[150px] max-sm:[130px]"
               src="/images/CBRD-LOGO.png"
               width={300}
               height={100}
@@ -52,13 +55,9 @@ export default function OurSponser() {
             />
           </div>
 
-          <div
-            data-aos="fade-up"
-            data-aos-duration="2000"
-            className="self-start"
-          >
+          <div className="self-start -ms-1.5">
             <img
-              className="w-[429px] "
+              className="w-[500px]  "
               src="/images/CSTAD_120.png"
               alt="cstad logo"
             />

@@ -13,8 +13,11 @@ export default function TapCustom() {
   };
 
   return (
-    <div data-aos="fade-up" data-aos-duration="2000">
-      <div className="tabs tabs-underline flex justify-between md:w-[675px] border-b border-primary">
+    <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+      <div
+        id="tab"
+        className="tabs tabs-underline flex justify-between md:w-[675px] border-b border-primary"
+      >
         <input
           type="radio"
           id="tab-7"
@@ -23,7 +26,10 @@ export default function TapCustom() {
           checked={selectedTab === "tab-7"}
           onChange={handleTabChange}
         />
-        <label htmlFor="tab-7" className="tab px-6 text-xl font-semibold">
+        <label
+          htmlFor="tab-7"
+          className="tab text-white px-6 text-xl font-semibold"
+        >
           All
         </label>
         <br />
@@ -36,7 +42,10 @@ export default function TapCustom() {
           checked={selectedTab === "tab-8"}
           onChange={handleTabChange}
         />
-        <label htmlFor="tab-8" className="tab px-6 text-xl font-semibold">
+        <label
+          htmlFor="tab-8"
+          className="tab px-6 hover:text-primary text-white text-xl font-semibold"
+        >
           Web Security
         </label>
         <br />
@@ -49,7 +58,10 @@ export default function TapCustom() {
           checked={selectedTab === "tab-9"}
           onChange={handleTabChange}
         />
-        <label htmlFor="tab-9" className="tab px-6 text-xl font-semibold">
+        <label
+          htmlFor="tab-9"
+          className="tab text-white px-6 text-xl font-semibold"
+        >
           Resources
         </label>
 
