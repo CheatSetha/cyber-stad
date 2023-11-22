@@ -15,18 +15,18 @@ export const metadata = {
     "Cyber-STAD is a cybersecurity group of student who study at CSTAD. This website is created in order to share what we have learned and what we have done. We also want to share our vision and mission to the world. We hope that we can help people to learn more about cybersecurity and help them to protect themselves from cybercrime. and everyonw can contact us for hire us to do some project.",
   // metadata for social media
   openGraph: {
-    images: ["/some-specific-page-image.jpg", ...previousImages],
+    images:  "/images/metadata.jpg",
     title: "Cyber-STAD",
     description:
       "Cyber-STAD is a cybersecurity group of student who study at CSTAD. This website is created in order to share what we have learned and what we have done. We also want to share our vision and mission to the world. We hope that we can help people to learn more about cybersecurity and help them to protect themselves from cybercrime. and everyonw can contact us for hire us to do some project.",
     type: "website",
-
+ 
     url: "https://cyber-stad.vercel.app",
   },
   twitter: {
-    handle: "@handle",
-    site: "@site",
     cardType: "summary_large_image",
+    handle: "@SoPheng88402351",
+    site: "@SoPheng88402351",
   },
 };
 
