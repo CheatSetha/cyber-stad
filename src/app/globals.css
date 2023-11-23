@@ -163,3 +163,12 @@ border-color: #9FEF00;
   --tw-text-opacity: 1;
   color: white
 }
+
+/* our sponser  */
+
+@media (max-width: 375px){
+  #cbrd-logo{
+    width: 120px;
+
+  }
+}

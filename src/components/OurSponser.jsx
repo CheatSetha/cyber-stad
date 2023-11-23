@@ -47,7 +47,8 @@ export default function OurSponser() {
           </div>
           <div>
             <Image
-              className="md:w-[110px] xl:w-[150px] max-sm:[130px]"
+            id="cbrd-logo"
+              className="md:w-[110px] xl:w-[150px] w-[140px] "
               src="/images/CBRD-LOGO.png"
               width={300}
               height={100}
