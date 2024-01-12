@@ -70,6 +70,7 @@ border-color: #9FEF00;
   background-image: url('/images/bg-git.png');
   background-repeat: no-repeat;
   background-size: contain;
+  
 
 }
 /* small screen smaller than 420 */
@@ -88,7 +89,7 @@ border-color: #9FEF00;
 #bg-team{
   background-image: url('/images/team-bg.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #bg-line-git{

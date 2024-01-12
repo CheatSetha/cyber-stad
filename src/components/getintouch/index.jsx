@@ -4,7 +4,7 @@ import CardContact from "./components/CardContact";
 export default function GenIntoch() {
   return (
   
-      <div  id="contactus" className="bg-secondary bg-img-git md:h-[706px] h-full">
+      <div  id="contactus" className="bg-secondary bg-img-git md:h-[706px] w-full h-full">
       
 
        <div id="bg-line-git"  className="bg-secondary bg-opacity-90 md:h-[706px] h-full ">

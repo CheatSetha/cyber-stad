@@ -18,7 +18,7 @@ export default function OurSponser() {
             data-aos-once="true"
             className="lg:text-7xl text-5xl self-start font-bold"
           >
-            Our Sponser
+            Our Sponsors
           </h1>
           <p
             data-aos="fade-up"

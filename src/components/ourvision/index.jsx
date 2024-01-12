@@ -17,7 +17,7 @@ export default function Vision() {
           Our Vision & Community
         </h1>
         <p className="text-xl font-medium mb-10 text-center mt-4">
-          We haved started in this skill - Cybersecurity since{" "}
+          We have started in this skill - Cybersecurity since{" "}
           <span className="text-primary ">2023</span>, we love to make ourselve{" "}
           <span className="text-primary">busy.</span>
         </p>
