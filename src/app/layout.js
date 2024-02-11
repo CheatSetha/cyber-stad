@@ -2,6 +2,7 @@ import { Darker_Grotesque, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import NavbarTop from "@/components/NavbarTop";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +35,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* place google adsence code here */}
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7533130536067316"
+     crossorigin="anonymous" strategy="lazyOnload"></Script>
       <body className={darker_groteque.className}>
         <NavbarTop />
         <Navbar />
